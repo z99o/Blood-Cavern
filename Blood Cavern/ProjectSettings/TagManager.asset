@@ -8,6 +8,13 @@ TagManager:
   - bullet
   - frontLeg
   - backLeg
+  - magazine
+  - damager
+  - terrain
+  - acid
+  - Enemy
+  - Boss
+  - Commander
   layers:
   - Default
   - TransparentFX
@@ -19,8 +26,8 @@ TagManager:
   - 
   - Ground
   - particles
-  - 
-  - 
+  - Enemies
+  - nonStackable particles
   - 
   - 
   - 
@@ -54,8 +61,17 @@ TagManager:
   - name: Player
     uniqueID: 2105711445
     locked: 0
+  - name: Gun
+    uniqueID: 1171941511
+    locked: 0
   - name: FrontOfPlayer
     uniqueID: 4263134341
+    locked: 0
+  - name: Foreground3
+    uniqueID: 1948127333
+    locked: 0
+  - name: Foreground2
+    uniqueID: 2687379163
     locked: 0
   - name: Foreground
     uniqueID: 3715013713
